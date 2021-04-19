@@ -1,2 +1,8 @@
 server:
   port: 1111
+
+spring:
+  datasource:
+    url: jdbc:postgresql://10.109.4.121:5432/postgres?currentSchema=public
+    username: postgres
+    password: qit123456
